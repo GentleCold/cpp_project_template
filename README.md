@@ -8,10 +8,12 @@ My simple project template for cpp on linux
 
 * test: `google test`
 
-# How to use
+## How to use
 
 ```shell
-git clone ...
-rm .git -r
-sh setup.sh
+git clone
+rm .git -rf
+sh build.sh
 ```
+
+`sh build.sh r` for release build
