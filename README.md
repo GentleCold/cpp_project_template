@@ -2,11 +2,11 @@
 
 My simple project template for cpp on linux
 
-* editor: `neovim`
+- editor: `neovim`
 
-* make tool: `cmake`
+- make tool: `cmake`
 
-* test: `google test`
+- test: `google test`
 
 ## How to use
 
