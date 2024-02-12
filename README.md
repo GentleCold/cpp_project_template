@@ -11,7 +11,7 @@ My simple project template for cpp on linux
 ## How to use
 
 ```shell
-git clone
+git clone git@github.com:GentleCold/cpp_project_template.git
 rm .git -rf
 sh build.sh
 ```

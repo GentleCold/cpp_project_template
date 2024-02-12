@@ -27,4 +27,9 @@ echo ""
 echo "======RUN INFO======"
 
 cd ../../bin
-./test_all
+
+if [ "$1" = "r" ] || [ "$1" = "release" ]; then
+  ./test_all_release
+else
+  ./test_all_debug
+fi
